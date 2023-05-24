@@ -1,0 +1,23 @@
+    <section class="joinnow">
+           <form  [formGroup]="logform" (ngSubmit)="clicked()">
+         <video autoplay loop muted  class="background-clip">
+        <source src="../../assets/video/yt1s.com - 4K Magical Ground 2160p Beautiful Animated Wallpaper HD Background video effect 1080p AA VFX_1080p.mp4\" type="video/mp4">
+     </video>
+
+        <div class="login col-lg-4 m-auto shadow-lg">
+            
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label" >userid</label> 
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="usid">
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"  formControlName="pswd">
+                </div>
+                <button type="submit" class="btn btn-primary col-lg-12">Log in</button>
+           
+            
+    
+        </div>
+      </form>
+    </section>

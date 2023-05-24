@@ -1,0 +1,32 @@
+.joinnow{
+    /* background-color: #87b0e5; */
+    padding: 140px 100px;
+    
+
+}
+.login{
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 15px;
+
+}
+@media screen {
+    .joinnow{
+
+        padding: 140px 30px;
+    
+    }
+    
+
+    
+}
+.background-clip{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    min-width: 100%; 
+    min-height: 100%;
+    opacity: 90%;
+    
+}
